@@ -1,4 +1,4 @@
-![image](.\figure\OT-TCR.png)
+![image](.\figure\TransTCR.png)
 
 We propose a unsupervised multimodal representation learning framework, **TransTCR**.
 
@@ -74,4 +74,5 @@ bash run_Intra.sh
 ```
 bash run_Inter.sh
 ```
+
 
