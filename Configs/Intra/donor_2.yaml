@@ -1,0 +1,33 @@
+dataset:
+  Training_dataset: ../TCR_data/Intra/donor2/donor2.h5ad
+  Training_profile_dist: ../TCR_data/Intra/donor2/donor2_RNA_dist.h5ad
+  Training_tcr_dist: ../TCR_data/Intra/donor2/donor2_TRB_dist.h5ad
+Train:
+  Sampling:
+    batch_size: 256
+    sample_shuffle: True
+  
+  Model_Parameter:
+    encoderTCR_in_dim: 5
+    encoderTCR_out_dim: 256
+    encoderprofile_in_dim: 5000
+    encoderprofile_hid_dim: 1024
+    encoderprofile_hid_dim2: 512
+    encoderprofle_out_dim: 256
+    out_dim: 256
+    head_num: 4
+    device: cuda
+
+  Trainer_parameter:
+    random_seed: 42
+    epoch: 100
+    learning_rate: 0.0001
+  
+  # output_dir: ../TCR_result/Intra/
+  output_dir: ../TransTCR/Intra42/
+
+Inference:
+  Sampling:
+    batch_size: 256
+    sample_shuffle: False
+  # Model: /Model_checkpoints/epoch100_model.pth
