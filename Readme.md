@@ -1,10 +1,8 @@
 # TransTCR: Integrating TCRs and Transcriptomes through Optimal Transport for Antigen Specificity Prediction
 
-> **TransTCR** is an **unsupervised multimodal representation learning framework** that integrates **single-cell TCR sequencing (scTCR-seq)** and **single-cell RNA sequencing (scRNA-seq)** data through **Optimal Transport (OT)** for **antigen specificity prediction, cell clustering, and cross-dataset generalization**.
+> **TransTCR** is an **unsupervised multimodal representation learning framework** that integrates **single-cell TCR sequencing (scTCR-seq)** and **single-cell RNA sequencing (scRNA-seq)** data through **Optimal Transport (OT)** for **antigen specificity prediction and cell clustering**.
 
 ![image](./figure/TransTCR.png)
-
-We propose a unsupervised multimodal representation learning framework, **TransTCR**. 
 
 # TransTCR
 
@@ -90,3 +88,4 @@ If you find our codes useful, please consider citing our work:
   year={2025},
 }
 ```
+
