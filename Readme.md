@@ -77,15 +77,16 @@ bash run_Intra.sh
 bash run_Inter.sh
 ```
 
-#### Citation
+### Citation
 If you find our codes useful, please consider citing our work:
 
 ```
 @article{TransTCR,
   title={TransTCR: Integrating TCRs and Transcriptomes through Optimal Transport for Antigen Specificity Prediction},
-  author={Yuansong Zeng, Wenbing Li, Ruipeng Huang, Yuanze Chen,Jinyun Niu, Ningyuan Shangguan, Siyuan He, Yuedong Yang},
+  author={Yuansong Zeng, Wenbing Li, Ruipeng Huang, Yuanze Chen, Jinyun Niu, Ningyuan Shangguan, Siyuan He, Yuedong Yang},
   journal={},
   year={2025},
 }
 ```
+
 
